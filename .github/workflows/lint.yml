@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: 3.x
-          architecture: x64
+          architecture: x32
       - name: Checkout python-binance
         uses: actions/checkout@v3
       - name: Install dependencies
